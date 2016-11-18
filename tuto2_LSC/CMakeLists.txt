@@ -1,5 +1,5 @@
 SET(LIST2EXOS
-      exercise2LSC
+      tuto2_LSC
   )
 
 FOREACH(FILE ${LIST2EXOS})
