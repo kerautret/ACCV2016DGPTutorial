@@ -24,9 +24,9 @@ if ( Boost_FOUND )
 endif( Boost_FOUND) 
 
 
-add_subdirectory(exercise1baseDGtal)
-add_subdirectory(exercise2LSC)
-
+add_subdirectory(tuto1_baseDGtal)
+add_subdirectory(tuto2_LSC)
+add_subdirectory(tuto3_curvatures)
 
 
 

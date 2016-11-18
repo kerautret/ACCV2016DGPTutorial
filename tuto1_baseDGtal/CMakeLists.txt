@@ -1,5 +1,5 @@
 SET(LIST1EXOS
-      exercise1baseDGtal
+      tuto1_baseDGtal
   )
 
 FOREACH(FILE ${LIST1EXOS})
