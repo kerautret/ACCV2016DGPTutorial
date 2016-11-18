@@ -1,5 +1,5 @@
 SET(LIST3EXOS
-     exercise3curvature
+     tuto3_curvature
   )
 
 FOREACH(FILE ${LIST3EXOS})
