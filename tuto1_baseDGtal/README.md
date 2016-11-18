@@ -1,6 +1,6 @@
 
 
-## Tuto 1: Extracting Level Sets Contours
+## Tutorial Exercise 1: Extracting Level Sets Contours
 
 Read input contour point and display it with Board2D.
 
