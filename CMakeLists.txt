@@ -8,10 +8,6 @@ configure_file(${PROJECT_SOURCE_DIR}/ConfigExercices.h.in
   
 include_directories (${PROJECT_BINARY_DIR})
 
-SET(Progs
-    exercise1baseDGtal/exercise1baseDGtal
-    exercise2LSC/exercise2LSC)
-
   
 FIND_PACKAGE(DGtal REQUIRED)
 INCLUDE_DIRECTORIES(${DGTAL_INCLUDE_DIRS})
@@ -28,10 +24,7 @@ if ( Boost_FOUND )
 endif( Boost_FOUND) 
 
 
-FOREACH(FILE ${Progs})
-   ADD_EXECUTABLE(${FILE} ${FILE}  )
-   TARGET_LINK_LIBRARIES(${FILE}  ${DGTAL_LIBRARIES}  ${DGtalToolsLibDependencies} )
-ENDFOREACH(FILE)
+add_subdirectory(exercise1baseDGtal)
 
 
 
