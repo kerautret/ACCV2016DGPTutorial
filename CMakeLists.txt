@@ -9,8 +9,8 @@ configure_file(${PROJECT_SOURCE_DIR}/ConfigExercices.h.in
 include_directories (${PROJECT_BINARY_DIR})
 
 SET(Progs
-    tuto1_readInput
-    )
+    exercise1baseDGtal/exercise1baseDGtal
+    exercise2LSC/exercise2LSC)
 
   
 FIND_PACKAGE(DGtal REQUIRED)
