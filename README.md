@@ -38,27 +38,27 @@ input contour given from a simple list of points:
 
 ## List of exercices:
 
-### exercise 1:  see [instructions](exercise1baseDGtal/README.md)
+### Tuto 1:  see [instructions](exercise1baseDGtal/README.md)
 The objective of this first exercise is to read input contour point and display it with Board2D.
 
 You will generate result similar to:
 <center>
-<a href="exercise1baseDGtal/results/res.png"><img height=150 src="exercise1baseDGtal/results/res.png"></a>
+<a href="tuto1_baseDGtal/results/res.png"><img height=150 src="tuto1_baseDGtal/results/res.png"></a>
 </center>
 
 
-### exercice 2:  see [instructions](exercise2LSC/README.md)
+### Tuto 2:  see [instructions](exercise2LSC/README.md)
 
 The aim of this exercise is to extract the 2D level sets contours from
 a gray scale image and an given selected interval.
 
 You will generate results similar to:
 <center>
-<a href="exercise2LSC/results/res.png"><img height=150 src="exercise2LSC/results/res.png"></a>
+<a href="tuto2_LSC/results/res.png"><img height=150 src="tuto2_LSC/results/res.png"></a>
 </center>
 
 
-### exercise 3: see [instructions](exercise3curvatures/README.md)
+### Tuto 3: see [instructions](exercise3curvatures/README.md)
 
 
 
