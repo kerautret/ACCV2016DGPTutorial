@@ -25,6 +25,7 @@ endif( Boost_FOUND)
 
 
 add_subdirectory(exercise1baseDGtal)
+add_subdirectory(exercise2LSC)
 
 
 

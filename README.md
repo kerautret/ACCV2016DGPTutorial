@@ -36,32 +36,33 @@ Then you can configure
 input contour given from a simple list of points:
 
 
+## List of exercices:
 
-### exercice 1: 
+### exercise 1:  see [instructions](exercise1baseDGtal/README.md)
+The objective of this first exercise is to read input contour point and display it with Board2D.
+
+You will generate result similar to:
+<center>
+<a href="exercise1baseDGtal/results/res.png"><img height=150 src="exercise1baseDGtal/results/res.png"></a>
+</center>
 
 
-### Exercice 2:
-   - step 1: Reading input file: 
-     => choose an image type: #include <DGtal/images/ImageContainerBySTLVector.h>
-     => use the PGMReader from io/readers 
-       Image image = DGtal::PGMReader<Image>::importPGM(filename); 
-  
-   - step 2: Init a Khalimksy Space (to extract boundary object from topology definitions)
-     => use  Z2i::KSpace to obtain directly the 
-     => use lower bounds from the domain of the image.
-     
-   - step 3: defines a Digital set2d
-     => use Z2i::DigitalSet constructed from the image domain
-     => use static method SetFromImage to append the cells defined from an interval of values (DGtal/images/imagesSetsUtils/SetFromImage.h)
-     
-   - step 4: displays the cells with a Board2D and displays the image domain.
-     =>  by using the operator ```<<``` on the Board2D.
-   - => extensions: use  CustomStyle and  CustomColors to display other of intervals of pixels
-   
-   
-   - step 5: By constructing a surfel adjacency (SurfelAdjacency<2> sAdj( true )) and by using the method to extract all the Contour 4 connexe defined in Surfaces<Z2i::KSpace>.
-   
-   - step 6: for each contours, constructs its associated FreemanChain and displays them.
+### exercice 2:  see [instructions](exercise2LSC/README.md)
+
+The aim of this exercise is to extract the 2D level sets contours from
+a gray scale image and an given selected interval.
+
+You will generate results similar to:
+<center>
+<a href="exercise2LSC/results/res.png"><img height=150 src="exercise2LSC/results/res.png"></a>
+</center>
+
+
+### exercise 3: see [instructions](exercise3curvatures/README.md)
+
+
+
+
 
 
 
