@@ -4,7 +4,7 @@ ACCV 2016 Tutorial on  Digital Geometry Processing : Extracting High Quality Geo
 
 Linux/MacOs build: [![Build Status](https://travis-ci.org/kerautret/ACCV2016DGPTutorial.svg?branch=WorkingExercices)](https://travis-ci.org/kerautret/ACCV2016DGPTutorial)
 
-Windows build: [![Build status](https://ci.appveyor.com/api/projects/status/ta5k0fvxmgaj3y4u?svg=true)](https://ci.appveyor.com/project/kerautret/cdcvam)
+Windows build: [![Build status](https://ci.appveyor.com/api/projects/status/o2nkols3y1caoea3/branch/master?svg=true)](https://ci.appveyor.com/project/kerautret/accv2016dgptutorial/branch/master)
 
 
 ## Requires
