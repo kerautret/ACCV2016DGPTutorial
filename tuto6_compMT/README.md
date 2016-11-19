@@ -2,7 +2,6 @@
 
 ## Tutorial Exercise 6: Computing the Meaningful Thickness
 
-
 The main objective is to compute the Meaningful Thickness for a given point and then for all the contour points.
 
 
