@@ -18,7 +18,7 @@ Before starting the tutorial you need to have the following dependancies:
 
 ## Simple Installation of the DGtal Library 
 
-To install DGtal follows theses steps: (more details available on the [official site](www.dgtal.org))
+To install DGtal follows theses steps: (more details available on the [official site](http://www.dgtal.org))
 
  - Clone the current version of DGtal: (or get the archive from a given USB key):
     ```
@@ -98,12 +98,12 @@ You will generate results similar to:
 <center>
 <table>
 <tr>
-<td align="center"><a href="tuto6_compMT/results/res.png"><img height=150 src="tuto6_compMT/results/res1.png"></a></td>
-<td align="center"><a href="tuto6_compMT/results/res.png"><img height=150 src="tuto6_compMT/results/res2.png"></a></td>
+<td ><a href="tuto6_compMT/results/res.png"><img height=150 src="tuto6_compMT/results/res1.png"></a></td>
+<td ><a href="tuto6_compMT/results/res.png"><img height=150 src="tuto6_compMT/results/res2.png"></a></td>
 </tr>
 <tr>
-<td>(a)</td>
-<td>(b)</td>
+<td align="center" >(a)</td>
+<td align="center" >(b)</td>
 </tr>
 
 </center>
