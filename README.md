@@ -2,8 +2,17 @@
 ACCV 2016 Tutorial on  Digital Geometry Processing : Extracting High Quality Geometric Features
 
 
-## Preliminary
+Linux/MacOs build: [![Build Status](https://travis-ci.org/kerautret/ACCV2016DGPTutorial.svg?branch=WorkingExercices)](https://travis-ci.org/kerautret/ACCV2016DGPTutorial)
+
+Windows build: [![Build status](https://ci.appveyor.com/api/projects/status/ta5k0fvxmgaj3y4u?svg=true)](https://ci.appveyor.com/project/kerautret/cdcvam)
+
+
+## Requires
 Before starting the tutorial you need to have the following dependancies:
+
+  - CMake >= 2.6
+  - Boost >= 1.46 (modules: program_options)
+  - [DGtal](https://github.com/DGtal-team/DGtal)
 
 
 
@@ -38,7 +47,7 @@ input contour given from a simple list of points:
 
 ## List of exercices:
 
-### Tuto 1:  see [instructions](exercise1baseDGtal/README.md)
+### Tuto 1:  see [instructions](tuto1_baseDGtal/README.md)
 The objective of this first exercise is to read input contour point and display it with Board2D.
 
 You will generate result similar to:
@@ -47,7 +56,7 @@ You will generate result similar to:
 </center>
 
 
-### Tuto 2:  see [instructions](exercise2LSC/README.md)
+### Tuto 2:  see [instructions](tuto2_LSC/README.md)
 
 The aim of this exercise is to extract the 2D level sets contours from
 a gray scale image and an given selected interval.
@@ -58,7 +67,7 @@ You will generate results similar to:
 </center>
 
 
-### Tuto 3: see [instructions](exercise3curvatures/README.md)
+### Tuto 3: see [instructions](tuto3_curvatures/README.md)
 In this tutorial exercice, we show a simple curvature extraction
 defined from the recognition of Digital Circular Arcs.
 
@@ -66,6 +75,25 @@ defined from the recognition of Digital Circular Arcs.
 You will generate results similar to:
 <center>
 <a href="tuto3_curvatures/results/res.png"><img height=150 src="tuto3_curvatures/results/res.png"></a>
+</center>
+
+
+### Tuto 4: see [instructions](tuto4_compATS/README.md)
+In this exercise we simply apply the recognition of a maximal Alpha Thick Segment.
+
+
+You will generate results similar to:
+<center>
+<a href="tuto4_compATS/results/res.png"><img height=150 src="tuto4_compATS/results/res.png"></a>
+</center>
+
+### Tuto 5: see [instructions](tuto5_compATSTC/README.md)
+Here  we explore the helper functions of the ```SegmentComputerUtils``` class ```DGtal/geometry/curves/SegmentComputerUtils.h``` in order to compute all the maximal AlphaThickSegment.
+
+
+You will generate results similar to:
+<center>
+<a href="tuto4_compATS/results/res.png"><img height=150 src="tuto5_compATSTC/results/res.png"></a>
 </center>
 
 
