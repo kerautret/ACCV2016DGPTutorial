@@ -4,7 +4,8 @@
 
 In this tutorial exercice, we show a simple curvature extraction
 defined from the recognition of Digital Circular Arcs.
-[Roussillon, T.; Sivignon, I. & L. Tougne On-line Recognition of Digital Circular Arc, 15-th IAPR International Conference on Discrete Geometry for Computer Imagery (DGCI) 2009]
+[Tristan Roussillon, Jacques-Olivier Lachaud:
+Accurate Curvature Estimation along Digital Contours with Maximal Digital Circular Arcs. IWCIA 2011: 43-55]
 
 
 
