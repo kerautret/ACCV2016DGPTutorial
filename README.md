@@ -93,7 +93,7 @@ Here  we explore the helper functions of the ```SegmentComputerUtils``` class ``
 
 You will generate results similar to:
 <center>
-<a href="tuto4_compATS/results/res.png"><img height=150 src="tuto5_compATSTC/results/res.png"></a>
+<a href="tuto5_compATSTC/results/res.png"><img height=150 src="tuto5_compATSTC/results/res.png"></a>
 </center>
 
 
