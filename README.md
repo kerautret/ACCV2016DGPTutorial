@@ -91,11 +91,20 @@ You will generate results similar to:
 
 ### Tuto 6: Meaningful Thickness  (see [instructions](Computing the Meaningful Thickness))
 
-The main objective is to compute the Meaningful Thickness for a given point and then for all the contour points.
+#### The main objective is to compute the Meaningful Thickness for a given point (a) and then for all the contour points (b).
 
 You will generate results similar to:
 <center>
-<a href="tuto5_compATSTC/results/res.png"><img height=150 src="tuto5_compATSTC/results/res.png"></a>
+<table>
+<tr>
+<td><a href="tuto6_compMT/results/res.png"><img height=150 src="tuto6_compMT/results/res1.png"></a></td>
+<td><a href="tuto6_compMT/results/res.png"><img height=150 src="tuto6_compMT/results/res2.png"></a></td>
+</tr>
+<tr>
+<td>(a)</td>
+<td>(b)</td>
+</tr>
+
 </center>
 
 

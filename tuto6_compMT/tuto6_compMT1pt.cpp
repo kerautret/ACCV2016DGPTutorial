@@ -19,11 +19,6 @@
 
 using namespace DGtal;
 
-struct LogFct{
-  double operator()(const double &a) const {
-    return log(a);
-  }
-};
 
 int
 main(int argc, char ** argv){
