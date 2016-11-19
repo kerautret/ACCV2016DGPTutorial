@@ -17,20 +17,21 @@ Before starting the tutorial you need to have the following dependancies:
 
 
 ## Simple Installation of the DGtal Library 
-To follow the tutorial exercice based on the DGtal Library, you can follow the given step:
+
+To install DGtal follows theses steps: (more details available on the [official site](www.dgtal.org))
 
  - Clone the current version of DGtal: (or get the archive from a given USB key):
     ```
       git clone git@github.com:DGtal-team/DGtal.git
     ```
  
- - Do to the given downloaded directory of the Library and recopy the given command lines: 
-   - ```cd DGtal;``` 
-   - ```mkdir build; cd build```
-   - cmake .. -DBUILD_EXAMPLES=FALSE -DBUILD_TESTING=FALSE
-   - make -j 5 
+ - Then recopy the following command lines: 
+   - `cd DGtal;` 
+   - `mkdir build; cd build`
+   - `cmake .. -DBUILD_EXAMPLES=FALSE -DBUILD_TESTING=FALSE`
+   - `make -j 5`
  
- - Alternatively you can use ccmake and selects in the interface the associated options.
+ - Alternatively you can use `ccmake` and select in the interface the associated options.
  
  
 
@@ -38,9 +39,9 @@ To follow the tutorial exercice based on the DGtal Library, you can follow the g
 ## List of exercices:
 
 ### Tuto 1: basic DGTal (see [instructions](tuto1_baseDGtal/README.md))
-The objective of this first exercise is to read input contour point and display it with Board2D.
+The objective of this first exercise is to read an input contour and display it with `Board2D`.
 
-You will generate result similar to:
+You should obtain something like that:
 <center>
 <a href="tuto1_baseDGtal/results/res.png"><img height=150 src="tuto1_baseDGtal/results/res.png"></a>
 </center>
@@ -51,7 +52,7 @@ You will generate result similar to:
 The aim of this exercise is to extract the 2D level sets contours from
 a gray scale image and an given selected interval.
 
-You will generate results similar to:
+You should obtain something like that:
 <center>
 <a href="tuto2_LSC/results/res.png"><img height=150 src="tuto2_LSC/results/res.png"></a>
 </center>
@@ -62,9 +63,9 @@ In this tutorial exercice, we show a simple curvature extraction
 defined from the recognition of Digital Circular Arcs.
 
 
-You will generate results similar to:
+You should obtain something like that:
 <center>
-<a href="tuto3_curvatures/results/res.png"><img height=150 src="tuto3_curvatures/results/res.png"></a>
+<a href="tuto3_curvatures/results/res.png"><img height=250 src="tuto3_curvatures/results/res.png"></a>
 </center>
 
 
@@ -72,17 +73,17 @@ You will generate results similar to:
 In this exercise we simply apply the recognition of a maximal Alpha Thick Segment.
 
 
-You will generate results similar to:
+You should obtain something like that:
 <center>
 <a href="tuto4_compATS/results/res.png"><img height=150 src="tuto4_compATS/results/res.png"></a>
 </center>
 
 
 ### Tuto 5: Tangential Cover (see [instructions](tuto5_compATSTC/README.md))
-Here  we explore the helper functions of the ```SegmentComputerUtils``` class ```DGtal/geometry/curves/SegmentComputerUtils.h``` in order to compute all the maximal AlphaThickSegment covering a given point.
+Here  we explore the helper functions of the `SegmentComputerUtils` class `DGtal/geometry/curves/SegmentComputerUtils.h` in order to compute all the maximal AlphaThickSegment covering a given point.
 
 
-You will generate results similar to:
+You should obtain something like that:
 <center>
 <a href="tuto5_compATSTC/results/res.png"><img height=150 src="tuto5_compATSTC/results/res.png"></a>
 </center>
@@ -91,14 +92,14 @@ You will generate results similar to:
 
 ### Tuto 6: Meaningful Thickness  (see [instructions](Computing the Meaningful Thickness))
 
-#### The main objective is to compute the Meaningful Thickness for a given point (a) and then for all the contour points (b).
+The main objective is to compute the Meaningful Thickness for a given point (a) and then for all the contour points (b).
 
 You will generate results similar to:
 <center>
 <table>
 <tr>
-<td><a href="tuto6_compMT/results/res.png"><img height=150 src="tuto6_compMT/results/res1.png"></a></td>
-<td><a href="tuto6_compMT/results/res.png"><img height=150 src="tuto6_compMT/results/res2.png"></a></td>
+<td align="center"><a href="tuto6_compMT/results/res.png"><img height=150 src="tuto6_compMT/results/res1.png"></a></td>
+<td align="center"><a href="tuto6_compMT/results/res.png"><img height=150 src="tuto6_compMT/results/res2.png"></a></td>
 </tr>
 <tr>
 <td>(a)</td>
