@@ -27,23 +27,11 @@ main(int argc, char ** argv){
   typedef AlphaThickSegmentComputer<Z2i::Point> AlphaThickSegmentComputer2D;
   
   // question 1:
-  AlphaThickSegmentComputer2D aComputer(5);
-  firstMaximalSegment(aComputer, contour.begin()+index, contour.begin(), contour.end());
-  AlphaThickSegmentComputer2D first (aComputer);
-  lastMaximalSegment(aComputer, contour.begin()+index, contour.begin(), contour.end());
-  AlphaThickSegmentComputer2D last (aComputer);       
-  aBoard << SetMode(first.className(), "BoundingBox");
-
+  
+  
   // question 2:
-  while(first.end() != last.end()){
-    aBoard << first;
-    nextMaximalSegment(first, contour.end());
-  }
-  aBoard << first;
-  aBoard.setPenColor(DGtal::Color::Blue);
-  aBoard.setFillColor(DGtal::Color::Blue);
-  aBoard.drawCircle(contour[index][0], contour[index][1],1); 
-
+ 
+  
   aBoard.saveEPS((mainDir+"resultTuto5CompATSTC.eps").c_str());
   return 0;
 }

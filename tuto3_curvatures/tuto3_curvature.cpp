@@ -51,9 +51,7 @@ main(int argc, char ** argv){
   CurvatureEstimator estimator(sc, sce);
   
   // question 4:
-  estimator.init( 1, r.begin(), r.end() );
-  estimator.eval( r.begin(), r.end(), std::back_inserter(estimations) );
-
+  
   
   int i=0;
   std::ofstream of;

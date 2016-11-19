@@ -17,14 +17,15 @@ int
 main(int argc, char ** argv){
   trace.info() << "First programm in DGtal" << std::endl;
   typedef Z2i::Point Point;
-  std::vector<Point> contour = PointListReader<Point>::getPointsFromFile(samplesDir+"contourS.sdp");
-  trace.info() << "Reading input done: contour size " << contour.size() <<  std::endl;
+
+  //question 1
   Board2D aBoard;
 
-  for (auto&& p :contour) {
-    aBoard << p;
-  }
-  aBoard.saveEPS((mainDir+"resultTuto1.eps").c_str());
+  // question 2
+
+  
+  // question 3
+  
   return 0;
 }
 
