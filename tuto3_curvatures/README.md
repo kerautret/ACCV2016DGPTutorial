@@ -30,7 +30,14 @@ defined from the recognition of Digital Circular Arcs.
      Then you will be able to construct the `CurvatureEstimator` object from the instance of `SegmentComputer` and `SCEstimator`.
 
 
-   - [ ] **question 4** : to finalisze the esitamation you simply have to **init** and **evaluate** and export the results with for instance gnuplot.
-   
+   - [ ] **question 4** : to finalisze the estimation you simply have to **initialyze**, **evaluate** and export the results in order to displat it with gnuplot. 
   
+  
+  You should obtain such a visualization:
+
+  <center>
+  <a href="results/res.png"><img height=150 src="results/res.png"></a>
+  </center>
+
+
 

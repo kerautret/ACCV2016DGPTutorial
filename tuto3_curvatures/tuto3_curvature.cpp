@@ -57,7 +57,7 @@ main(int argc, char ** argv){
   
   int i=0;
   std::ofstream of;
-  of.open(mainDir+"curvature.sdp", std::ofstream::binary);
+  of.open(mainDir+"resultTuto3Curvature.sdp", std::ofstream::binary);
   for (auto v: estimations )
   {
     of << i << " " << v << std::endl;

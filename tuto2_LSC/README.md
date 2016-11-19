@@ -25,3 +25,13 @@ The aim of this exercise is to extract the 2D level sets contours from a gray sc
   - [ ] **question 5**: By constructing a surfel adjacency (```SurfelAdjacency<2> sAdj( true )```) and by using the method to extract all the Contour 4 connexe defined in Surfaces<Z2i::KSpace>.
    
   - [ ] **question 6**: for each contour, constructs its associated FreemanChain and displays them.
+
+
+
+You should obtain such a visualization:
+
+  <center>
+  <a href="results/res.png"><img height=150 src="results/res.png"></a>
+  </center>
+
+

@@ -59,9 +59,14 @@ You will generate results similar to:
 
 
 ### Tuto 3: see [instructions](exercise3curvatures/README.md)
+In this tutorial exercice, we show a simple curvature extraction
+defined from the recognition of Digital Circular Arcs.
 
 
-
+You will generate results similar to:
+<center>
+<a href="tuto3_curvatures/results/res.png"><img height=150 src="tuto3_curvatures/results/res.png"></a>
+</center>
 
 
 

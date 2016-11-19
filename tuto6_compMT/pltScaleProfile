@@ -1,0 +1,6 @@
+set terminal postscript epsf color 22
+set output 'scaleProfilePtX.eps';
+
+set logscale
+
+plot [1:15][9:130]   "ptA.dat" using ($1):($2) title "Multiscale profile ptA" w lp, "ptB.dat" using ($1):($2) title "Multiscale profile ptB" w lp, "ptC.dat" using ($1):($2) title "Multiscale profile ptC" w lp, "ptD.dat" using ($1):($2) title "Multiscale profile ptD" w lp, "ptE.dat" using ($1):($2) title "Multiscale profile ptE" w lp, x**(-1.0)*100, x**(-1.0/2.0)*30 

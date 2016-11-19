@@ -27,6 +27,7 @@ endif( Boost_FOUND)
 add_subdirectory(tuto1_baseDGtal)
 add_subdirectory(tuto2_LSC)
 add_subdirectory(tuto3_curvatures)
-
-
+add_subdirectory(tuto4_compATS)
+add_subdirectory(tuto5_compATSTC)
+add_subdirectory(tuto6_compMT)
 
