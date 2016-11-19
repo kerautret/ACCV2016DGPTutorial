@@ -94,12 +94,12 @@ You should obtain something like that:
 
 The main objective is to compute the Meaningful Thickness for a given point (a) and then for all the contour points (b).
 
-You will generate results similar to:
+You should obtain something like that:
 <center>
 <table>
 <tr>
-<td ><a href="tuto6_compMT/results/res.png"><img height=150 src="tuto6_compMT/results/res1.png"></a></td>
-<td ><a href="tuto6_compMT/results/res.png"><img height=150 src="tuto6_compMT/results/res2.png"></a></td>
+<td ><a href="tuto6_compMT/results/res1.png"><img height=150 src="tuto6_compMT/results/res1.png"></a></td>
+<td ><a href="tuto6_compMT/results/res2.png"><img height=150 src="tuto6_compMT/results/res2.png"></a></td>
 </tr>
 <tr>
 <td align="center" >(a)</td>
