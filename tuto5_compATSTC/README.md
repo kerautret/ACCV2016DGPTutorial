@@ -8,7 +8,7 @@ Here  we explore the helper functions of the ```SegmentComputerUtils``` class ``
 
   - [ ] **question 1** : from an alphaThickSegmentComputed3d and by using the static methods firstMaximalSegment(),  lastMaximalSegment() and nextMaximalSegment()  of ```SegmentComputerUtils```, draw all the maximal segments of the curve.
   
-  - [] **question 2** : as previous exercise, display the results.
+  - [ ] **question 2** : as previous exercise, display the results.
   
   
   You should obtain such a visualization:

@@ -25,7 +25,7 @@ struct LogFct{
   }
 };
 
-int 
+int
 main(int argc, char ** argv){
   typedef Z2i::Point Point;
   std::vector<Point> contour = PointListReader<Point>::getPointsFromFile(samplesDir+"contourS.sdp");
@@ -35,40 +35,45 @@ main(int argc, char ** argv){
   aBoards[2] = Board2D();
   aBoards[3] = Board2D();
   aBoards[4] = Board2D();
-
+  
   for(unsigned int thickness = 1; thickness<=5; thickness++){
     for (auto&& p :contour) {
       aBoards[thickness-1] << p;
     }
   }
+  
+  
   std::ofstream ofLength;
-  ofLength.open(mainDir+"resultTuto5lengthNoise.dat");
-
+  ofLength.open(mainDir+"resultTuto5CompATSTC_lenghts.dat");
+  
   typedef AlphaThickSegmentComputer<Z2i::Point> AlphaThickSegmentComputer2D;
   //unsigned indexPt = 200;
-
-   unsigned indexPt = 430;
+  
+  unsigned indexPt = 430;
+  // (part of question 2)
   Profile<> s;
   s.init(5);
   
+  // question 1
   for(unsigned int thickness = 1; thickness<=5; thickness++){
     AlphaThickSegmentComputer2D aComputer(thickness);
     firstMaximalSegment(aComputer, contour.begin()+indexPt, contour.begin(), contour.end());
     AlphaThickSegmentComputer2D first (aComputer);
     lastMaximalSegment(aComputer, contour.begin()+indexPt, contour.begin(), contour.end());
-    AlphaThickSegmentComputer2D last (aComputer);       
+    AlphaThickSegmentComputer2D last (aComputer);
     aBoards[thickness-1] << SetMode(first.className(), "BoundingBox");
     
     while(first.end() != last.end()){
       aBoards[thickness-1] << first;
       ofLength << thickness << " " << first.getSegmentLength()/thickness << std::endl;
+      // question 2
       s.addValue(thickness - 1, first.getSegmentLength()/thickness);
       nextMaximalSegment(first, contour.end());
     }
     aBoards[thickness-1] << first;
     s.addValue(thickness - 1, first.getSegmentLength()/thickness);
     ofLength << thickness << " " << first.getSegmentLength()/thickness << std::endl;
-
+    
     aBoards[thickness-1].setPenColor(DGtal::Color::Blue);
     aBoards[thickness-1].setFillColor(DGtal::Color::Blue);
     aBoards[thickness-1].drawCircle(contour[indexPt][0], contour[indexPt][1],1);
@@ -77,7 +82,7 @@ main(int argc, char ** argv){
     
     aBoards[thickness-1].saveEPS(ss.str().c_str());
     aBoards[thickness-1].saveFIG(ss2.str().c_str());
-
+    
   }
   std::ofstream ofScale;
   ofScale.open(mainDir+"resultTuto5CompATSTC_MSP.dat");

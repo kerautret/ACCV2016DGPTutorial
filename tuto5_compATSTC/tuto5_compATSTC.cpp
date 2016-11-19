@@ -33,7 +33,8 @@ main(int argc, char ** argv){
   lastMaximalSegment(aComputer, contour.begin()+index, contour.begin(), contour.end());
   AlphaThickSegmentComputer2D last (aComputer);       
   aBoard << SetMode(first.className(), "BoundingBox");
-  // questio 2:
+
+  // question 2:
   while(first.end() != last.end()){
     aBoard << first;
     nextMaximalSegment(first, contour.end());

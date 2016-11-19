@@ -33,16 +33,6 @@ To follow the tutorial exercice based on the DGtal Library, you can follow the g
  - Alternatively you can use ccmake and selects in the interface the associated options.
  
  
-## Getting the source base file of exercises based on DGtal:
-
-To start using the Libray and check the installation, we will first
-need to clone this main repository (and/or fork it):
-  ```
-  git clone  git@github.com:kerautret/ACCV2016DGPTutorial.git
-  ```
-Then you can configure 
-
-input contour given from a simple list of points:
 
 
 ## List of exercices:
@@ -99,10 +89,14 @@ You will generate results similar to:
 
 
 
-## Tuto 6: Meaningful Thickness  (see [instructions](Computing the Meaningful Thickness))
+### Tuto 6: Meaningful Thickness  (see [instructions](Computing the Meaningful Thickness))
 
 The main objective is to compute the Meaningful Thickness for a given point and then for all the contour points.
 
+You will generate results similar to:
+<center>
+<a href="tuto5_compATSTC/results/res.png"><img height=150 src="tuto5_compATSTC/results/res.png"></a>
+</center>
 
 
 
