@@ -29,7 +29,7 @@ To install DGtal follows theses steps: (more details available on the [official 
    - `cd DGtal;` 
    - `mkdir build; cd build`
    - `cmake .. -DBUILD_EXAMPLES=FALSE -DBUILD_TESTING=FALSE`
-   - `make -j 5`
+   - `make`
  
  - Alternatively you can use `ccmake` and select in the interface the associated options.
  
@@ -37,6 +37,18 @@ To install DGtal follows theses steps: (more details available on the [official 
 
 
 ## List of exercices:
+
+To generate and compile this project you can do:
+
+  - `git clone git@github.com:kerautret/ACCV2016DGPTutorial.git `
+  - `cd ACCV2016DGPTutorial.git; mkdir build; cd build`
+  - `cmake ..  -DDGtal_DIR=/YOUR_DGtalDIR/build`
+  - `make`
+  
+  
+If you was use an IDLE like *xCode* you can add the option to generate an *xCode* project with:  `-GXcode`
+  
+
 
 ### Tuto 1: basic DGTal (see [instructions](tuto1_baseDGtal/README.md))
 The objective of this first exercise is to read an input contour and display it with `Board2D`.
