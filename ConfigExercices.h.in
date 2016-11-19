@@ -1,0 +1,16 @@
+/**
+* @file   ConfigExercices.h.in
+* @author Bertrand Kerautret <Bertrand Kerautret <bertrand.kerautret@loria.fr>>
+* @date   18 Nov. 2016
+* @brief  Configuration header for exercices files. 
+*
+**/
+
+#include <string>
+
+///Path to access the sample directory.
+const std::string samplesDir= "@PROJECT_SOURCE_DIR@/Samples/";
+
+///Path to access the sample directory.
+const std::string mainDir= "@PROJECT_SOURCE_DIR@/";
+

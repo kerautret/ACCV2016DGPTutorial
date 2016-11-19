@@ -1,0 +1,6 @@
+set terminal postscript epsf color 22
+set output 'scaleProfile.eps';
+
+set logscale
+
+plot [0.8:15][1:100]  "resultTuto5CompATSTC_lenghts.dat" using ($1):($2) title "ATS lengths" w p, 'resultTuto5CompATSTC_MSP.dat' using ($1):($2) w l title "Multi scale profile"  
