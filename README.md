@@ -90,7 +90,7 @@ You should obtain something like that:
 
 
 
-### Tuto 6: Meaningful Thickness  (see [instructions](Computing the Meaningful Thickness))
+### Tuto 6: Meaningful Thickness  (see [instructions](tuto6_compMT/README.md))
 
 The main objective is to compute the Meaningful Thickness for a given point (a) and then for all the contour points (b).
 
