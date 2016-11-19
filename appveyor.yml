@@ -62,7 +62,7 @@ before_build:
 
 build_script:
   - echo %CONFIG%
-  - msbuild /m /p:Configuration=%CONFIG% /p:Platform=%B_NAME% ACCV2016DGPTutorial.sln 
+  - msbuild /m /p:Configuration=%CONFIG% /p:Platform=%B_NAME% ACCV2016DGPTUTORIAL.sln 
 
 # - ctest -D ExperimentalStart -C %CONFIG%
 # - ctest -D ExperimentalBuild -j2 -C %CONFIG%
