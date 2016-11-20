@@ -2,6 +2,12 @@
 ACCV 2016 Tutorial on  Digital Geometry Processing : Extracting High Quality Geometric Features
 
 
+Slides of the presentation:
+
+  - part 1: [slides](docs/part2TutoDG_ACCV16.pdf))
+  - part 2: [slides](docs/part2TutoDG_ACCV16.pdf))
+
+
 Linux/MacOs build: [![Build Status](https://travis-ci.org/kerautret/ACCV2016DGPTutorial.svg?branch=WorkingExercices)](https://travis-ci.org/kerautret/ACCV2016DGPTutorial)
 
 Windows build: [![Build status](https://ci.appveyor.com/api/projects/status/o2nkols3y1caoea3/branch/master?svg=true)](https://ci.appveyor.com/project/kerautret/accv2016dgptutorial/branch/master)
