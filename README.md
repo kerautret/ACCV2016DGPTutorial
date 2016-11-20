@@ -4,8 +4,8 @@ ACCV 2016 Tutorial on  Digital Geometry Processing : Extracting High Quality Geo
 
 Slides of the presentation:
 
-  - part 1: [slides](docs/part2TutoDG_ACCV16.pdf))
-  - part 2: [slides](docs/part2TutoDG_ACCV16.pdf))
+  - slides [part 1](docs/part2TutoDG_ACCV16.pdf)
+  - slides [part 2](docs/part2TutoDG_ACCV16.pdf)
 
 
 Linux/MacOs build: [![Build Status](https://travis-ci.org/kerautret/ACCV2016DGPTutorial.svg?branch=WorkingExercices)](https://travis-ci.org/kerautret/ACCV2016DGPTutorial)
