@@ -4,7 +4,7 @@ ACCV 2016 Tutorial on  Digital Geometry Processing : Extracting High Quality Geo
 
 Slides of the presentation:
 
-  - slides [part 1](docs/part2TutoDG_ACCV16.pdf)
+  - slides [part 1](docs/part1TutoDG_ACCV16.pdf)
   - slides [part 2](docs/part2TutoDG_ACCV16.pdf)
 
 
