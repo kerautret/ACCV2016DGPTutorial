@@ -4,6 +4,6 @@ SET(LIST4EXOS
 
 FOREACH(FILE ${LIST4EXOS})
   add_executable(${FILE} ${FILE})
-  target_link_libraries (${FILE} DGtalIO DGtal)
+  target_link_libraries (${FILE} ${DGTAL_LIBRARIES} ${TutoDependencies})
 ENDFOREACH(FILE)
 
